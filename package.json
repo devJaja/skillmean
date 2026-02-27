@@ -6,9 +6,12 @@
     "check": "clarinet check",
     "test": "clarinet test",
     "console": "clarinet console",
-    "deploy:devnet": "clarinet integrate",
-    "deploy:testnet": "clarinet deploy --testnet",
-    "deploy:mainnet": "clarinet deployment generate --mainnet && clarinet deployment apply -p deployments/default.mainnet-plan.yaml"
+    "deploy": "cd scripts && ./deploy.sh",
+    "deploy:testnet": "npx ts-node scripts/deploy-testnet.ts",
+    "deploy:mainnet": "npx ts-node scripts/deploy-mainnet.ts",
+    "verify": "cd scripts && ./verify.sh",
+    "interact": "cd scripts && ./test-contract.sh",
+    "test:workflow": "npx ts-node scripts/test-workflow.ts"
   },
   "keywords": [
     "stacks",
@@ -21,7 +24,14 @@
   ],
   "author": "devjaja",
   "license": "MIT",
+  "dependencies": {
+    "@stacks/network": "^6.13.0",
+    "@stacks/transactions": "^6.13.0"
+  },
   "devDependencies": {
-    "@hirosystems/clarinet-sdk": "^2.0.0"
+    "@hirosystems/clarinet-sdk": "^2.0.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
