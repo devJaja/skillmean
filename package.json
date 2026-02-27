@@ -1,0 +1,27 @@
+{
+  "name": "skills-bridge-stacks",
+  "version": "1.0.0",
+  "description": "Skills-Bridge on Stacks - Decentralized skills marketplace on Bitcoin",
+  "scripts": {
+    "check": "clarinet check",
+    "test": "clarinet test",
+    "console": "clarinet console",
+    "deploy:devnet": "clarinet integrate",
+    "deploy:testnet": "clarinet deploy --testnet",
+    "deploy:mainnet": "clarinet deployment generate --mainnet && clarinet deployment apply -p deployments/default.mainnet-plan.yaml"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "clarity",
+    "blockchain",
+    "escrow",
+    "freelance",
+    "web3"
+  ],
+  "author": "devjaja",
+  "license": "MIT",
+  "devDependencies": {
+    "@hirosystems/clarinet-sdk": "^2.0.0"
+  }
+}
