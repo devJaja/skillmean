@@ -9,6 +9,11 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+# Private keys (NEVER commit!)
+*.key
+*.pem
+private-key.txt
+
 # Build
 dist/
 build/
