@@ -2,17 +2,17 @@
 name = "simnet"
 
 [accounts.deployer]
-mnemonic = "twice kind fence tip hidden tilt action fragile skin nothing glory cousin green tomorrow spring wrist shed math olympic multiply hip blue scout claw"
+mnemonic = "test test test test test test test test test test test junk"
 balance = 100_000_000_000_000
 
 [accounts.wallet_1]
-mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware remain midnight betray rebuild"
+mnemonic = "test test test test test test test test test test test junk"
 balance = 100_000_000_000_000
 
 [accounts.wallet_2]
-mnemonic = "hold floor cram sunset grass super loyal cruel leaf pilot inside hollow settle urban good range pet drive ocean surface mix snake spell once"
+mnemonic = "test test test test test test test test test test test junk"
 balance = 100_000_000_000_000
 
 [accounts.wallet_3]
-mnemonic = "board list obtain sugar hour worth raven scout denial thunder horse logic fury scorpion fold genuine phrase wealth news aim below celery when cabin"
+mnemonic = "test test test test test test test test test test test junk"
 balance = 100_000_000_000_000
